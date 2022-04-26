@@ -346,6 +346,12 @@ html {
         border-radius: 100%;
         z-index: 10;
     }
+
+    .ballon {
+        position: absolute;
+        top: 45%;
+        left: 45%;
+    }
 }
 
 /* Pour l'Iphone SE */
@@ -731,5 +737,11 @@ html {
         height: 5%;
         border-radius: 100%;
         z-index: 10;
+    }
+
+    .ballon {
+        position: absolute;
+        top: 57.5%;
+        left: 48.25%;
     }
 }
