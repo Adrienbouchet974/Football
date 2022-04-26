@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" id="change-style">
+    <title>Tous en position 4-4-2</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="4-4-2" onclick="swap('css/formation_4-4-2.css')">4-4-2</button>
+            <button class="4-3-3" onclick="swap('css/formation_4-3-3.css')">4-3-3</button>
+            <button class="4-5-1" onclick="swap('css/formation_4-5-1.css')">4-5-1</button>
+            <button class="5-3-2" onclick="swap('css/formation_5-3-2.css')">5-3-2</button>
+            <button class="3-5-2" onclick="swap('css/formation_3-5-2.css')">3-5-2</button>
+            <button class="5-4-1" onclick="swap('css/formation_5-4-1.css')">5-4-1</button>
+            <p>Formations</p>
+        </nav>
+    </header>
+    <main>
+        <div class="terrain">
+            <div class="gardien_gauche"></div>
+            <div class="surface_réparation_gauche"></div>
+            <div class="ligne_médiane"></div>
+            <div class="rond_central"></div>
+            <div class="demi-cercle_réparation_gauche"></div>
+            <div class="gardien_droite"></div>
+            <div class="surface_réparation_droite"></div>
+            <div class="demi-cercle_réparation_droite"></div>
+        </div>
+    </main>
+</body>
+<script src="js/main.js"></script>
+</html>

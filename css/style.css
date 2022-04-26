@@ -1,0 +1,295 @@
+html {
+    overflow-x: hidden;
+}
+
+/* Pour la plupart des téléphones */
+
+@media only screen and (max-width:480px){
+
+    .gardien_gauche {
+        position: absolute;
+        top: -7.5%;
+        left: 42.5%;
+        width: 10%;
+        height: 20%;
+        border: 5px solid white;
+        transform: rotate(90deg);
+    }
+
+    .surface_réparation_gauche {
+        position: absolute;
+        top: -8.8%;
+        left: 36.5%;
+        width: 22.5%;
+        height: 30%;
+        border: 5px solid white;
+        transform: rotate(90deg);
+    }
+
+    .ligne_médiane {
+        position: absolute;
+        top: 20%;
+        left: 49%;
+        height: 55%;
+        border: 5px solid white;
+        transform: rotate(90deg);
+    }
+
+    .rond_central {
+        position: absolute;
+        top: 37.5%;
+        left: 35%;
+        width: 25%;
+        height: 20%;
+        border-radius: 100%;
+        border: 5px solid white;
+    
+    }
+
+    .demi-cercle_réparation_gauche {
+        position: absolute;
+        left: 35%;
+        top: 2.5%;
+        width: 25%;
+        height: 20%;
+        border-radius: 100%;
+        border-right: 5px solid white;
+        transform: rotate(90deg);
+    }
+
+    .gardien_droite {
+        position: absolute;
+        bottom: -7.5%;
+        left: 42.5%;
+        width: 10%;
+        height: 20%;
+        border: 5px solid white;
+        transform: rotate(90deg);
+    }
+    
+    .surface_réparation_droite {
+        position: absolute;
+        bottom: -8.8%;
+        left: 36.5%;
+        width: 22.5%;
+        height: 30%;
+        border: 5px solid white;
+        transform: rotate(90deg);
+    }
+    
+    .demi-cercle_réparation_droite {
+        position: absolute;
+        left: 35%;
+        bottom: 2.5%;
+        width: 25%;
+        height: 20%;
+        border-radius: 100%;
+        border-left: 5px solid white;
+        transform: rotate(90deg);
+    }
+
+    main{
+        display: block;
+        position: absolute;
+        top: 20%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        border: 5px solid white;
+        background-repeat: repeat;
+        background-image: url(https://img.freepik.com/photos-gratuite/vue-dessus-texture-arriere-plan-herbe-verte_1253-1416.jpg?size=626&ext=jpg);
+        height: 75%;
+        width: 90%;
+    }
+
+    body {
+        display: flex;
+        background-color: black;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: rgb(255, 255, 255);
+        margin: 0.5%;
+        padding: 1%;
+    }
+    
+    p {
+        font-size: small;
+    }
+    
+    button {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+    }
+}
+
+/* Pour l'Iphone SE */
+
+@media only screen and (max-width:375px){
+    .ligne_médiane {
+        position: absolute;
+        top: 15%;
+        left: 49%;
+        height: 66.5%;
+        border: 5px solid white;
+        transform: rotate(90deg);
+    }
+}
+
+/* Pour le samsung Galaxy S8+ */
+
+@media only screen and (max-width:360px) {
+    .ligne_médiane {
+        position: absolute;
+        top: 18.5%;
+        left: 49%;
+        height: 57.5%;
+        border: 5px solid white;
+        transform: rotate(90deg);
+    }
+}
+
+/* Pour le galaxy Fold */
+
+@media only screen and (max-width:280px) {
+    .ligne_médiane {
+        position: absolute;
+        top: 22.5%;
+        left: 49%;
+        height: 50%;
+        border: 5px solid white;
+        transform: rotate(90deg);
+    }
+}
+
+/* Pour les écrans large */
+
+
+@media only screen and (min-width:481px){
+
+    body {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5%;
+    padding: 1%;
+    }
+
+    p {
+    font-size: xx-large;
+    }
+
+    button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    }
+
+    main {
+    top: 25%;
+    margin-top: 5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    height: 50%;
+    width: 100%;
+    }
+
+    .terrain {
+    display: block;
+    position: absolute;
+    background-image: url(https://img.freepik.com/photos-gratuite/vue-dessus-texture-arriere-plan-herbe-verte_1253-1416.jpg?size=626&ext=jpg);
+    background-repeat: repeat;
+    border: 5px solid white;
+    height: 65%;
+    width: 97%;
+    }
+
+    .gardien_gauche {
+    position: absolute;
+    top: 40%;
+    left: -0.4%;
+    width: 2%;
+    height: 20%;
+    border: 5px solid white;
+    }
+
+    .surface_réparation_gauche {
+    position: absolute;
+    top: 37.5%;
+    left: -0.5%;
+    width: 10%;
+    height: 25.5%;
+    border: 5px solid white;
+    }
+
+    .ligne_médiane {
+    position: absolute;
+    top: -0.8%;
+    left: -0.5%;
+    width: 50%;
+    height: 100%;
+    border: 5px solid white;
+    }
+
+    .rond_central {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 20%;
+    height: 25%;
+    border-radius: 100%;
+    border: 5px solid white;
+
+    }
+
+    .demi-cercle_réparation_gauche {
+    position: absolute;
+    left: -8%;
+    top: 41%;
+    width: 25%;
+    height: 20%;
+    border-radius: 100%;
+    border-right: 5px solid white;
+    }
+
+    .gardien_droite {
+    position: absolute;
+    top: 40%;
+    right: -0.4%;
+    width: 2%;
+    height: 20%;
+    border: 5px solid white;
+    }
+
+    .surface_réparation_droite {
+    position: absolute;
+    top: 37.5%;
+    right: -0.5%;
+    width: 10%;
+    height: 25.5%;
+    border: 5px solid white;
+    }
+
+    .demi-cercle_réparation_droite {
+    position: absolute;
+    right: -8%;
+    top: 41%;
+    width: 25%;
+    height: 20%;
+    border-radius: 100%;
+    border-left: 5px solid white;
+    }
+}
