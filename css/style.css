@@ -131,220 +131,132 @@ html {
         position: absolute;
         top: 60.5%;
         left: 52.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_2 {
         position: absolute;
         top: 60.5%;
         left: 47.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_3 {
         position: absolute;
         top: 60.5%;
         left: 42.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_4 {
         position: absolute;
         top: 60.5%;
         left: 37.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_5 {
         position: absolute;
         top: 65%;
         left: 52.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_6 {
         position: absolute;
         top: 65%;
         left: 47.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_7 {
         position: absolute;
         top: 65%;
         left: 42.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_8 {
         position: absolute;
         top: 65%;
         left: 37.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_9 {
         position: absolute;
         top: 61.5%;
         left: 60%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_10 {
         position: absolute;
         top: 61.5%;
         left: 30%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_11 {
         position: absolute;
         top: 70%;
         left: 43.75%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_12 {
         position: absolute;
         top: 35.5%;
         left: 52.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_13 {
         position: absolute;
         top: 35.5%;
         left: 47.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_14 {
         position: absolute;
         top: 35.5%;
         left: 42.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_15 {
         position: absolute;
         top: 35.5%;
         left: 37.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_16 {
         position: absolute;
         top: 30.5%;
         left: 52.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_17 {
         position: absolute;
         top: 30.5%;
         left: 47.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_18 {
         position: absolute;
         top: 30.5%;
         left: 42.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_19 {
         position: absolute;
         top: 30.5%;
         left: 37.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_20 {
         position: absolute;
         top: 32.5%;
         left: 32.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_21 {
         position: absolute;
         top: 32.5%;
         left: 57.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_22 {
         position: absolute;
         top: 25%;
         left: 45%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .ballon {
@@ -523,220 +435,132 @@ html {
         position: absolute;
         top: 65.5%;
         left: 42.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_2 {
         position: absolute;
         top: 52.5%;
         left: 42.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_3 {
         position: absolute;
         top: 61.5%;
         left: 45%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_4 {
         position: absolute;
         top: 60.5%;
         left: 45%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_5 {
         position: absolute;
         top: 57.5%;
         left: 45%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_6 {
         position: absolute;
         top: 56.5%;
         left: 45%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_7 {
         position: absolute;
         top: 56.5%;
         left: 40%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_8 {
         position: absolute;
         top: 57.5%;
         left: 40%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_9 {
         position: absolute;
         top: 60.5%;
         left: 40%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_10 {
         position: absolute;
         top: 61.5%;
         left: 40%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
     
     .joueur_11 {
         position: absolute;
         top: 58.5%;
         left: 32.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_12 {
         position: absolute;
         top: 65.5%;
         left: 55%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_13 {
         position: absolute;
         top: 52.5%;
         left: 55%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_14 {
         position: absolute;
         top: 61.5%;
         left: 57.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_15 {
         position: absolute;
         top: 60.5%;
         left: 57.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_16 {
         position: absolute;
         top: 57.5%;
         left: 57.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_17 {
         position: absolute;
         top: 56.5%;
         left: 57.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_18 {
         position: absolute;
         top: 56.5%;
         left: 52.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_19 {
         position: absolute;
         top: 57.5%;
         left: 52.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_20 {
         position: absolute;
         top: 60.5%;
         left: 52.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_21 {
         position: absolute;
         top: 61.5%;
         left: 52.5%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .joueur_22 {
         position: absolute;
         top: 58.5%;
         left: 65%;
-        width: 5%;
-        height: 5%;
-        border-radius: 100%;
-        z-index: 10;
     }
 
     .ballon {
